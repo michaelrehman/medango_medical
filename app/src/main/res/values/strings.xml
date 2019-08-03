@@ -1,0 +1,205 @@
+<resources>
+    <!--Login Page-->
+    <string name="app_name">Medango Medical</string>
+    <string name="app_description">For Medication Management</string>
+    <string name="logo_description">Logo</string>
+    <string name="username">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signUp">Sign Up</string>
+
+    <!--Sign Up Page-->
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="birthday">Birthday</string>
+    <string name="street_address">Street Address</string>
+    <string name="city">City</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="createPassword">Create Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="createAccount">Create Account</string>
+
+    <!--Welcome Page-->
+    <string name="welcome">Welcome</string>
+    <string name="contact">Contacts</string>
+    <string name="messages">Messages</string>
+    <string name="medications">Medications</string>
+    <string name="calendar">Calendar</string>
+    <string name="settings1">Settings</string>
+
+    <!--Sign Up Page: States Dropdown-->
+    <string-array name="states">
+        <item>[ State ]</item>
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+    </string-array>
+
+    <!--Calendar Page-->
+    <string name="chooseMedication">Choose Medication</string>
+    <string name="addReminder">Add Reminder</string>
+
+    <!--RemoveEdit-->
+    <string name="remove1">Remove</string>
+    <string name="edit">Edit</string>
+
+    <!--ManageMedications Page-->
+    <string name="medicineTitle">Medications</string>
+    <string name="addNewMed">Add New Medication</string>
+    <string name="circleBtn">+</string>
+    <string name="dosageAmount">Dosage</string>
+    <string name="dosageSpinner">Units</string>
+    <string name="medName">Medicine Name</string>
+    <string name="frequencyInput">Frequency</string>
+    <string name="popAddButton">Add Medicine</string>
+    <string-array name="units">
+        <item>mg</item>
+        <item>g</item>
+        <item>mL</item>
+        <item>drops</item>
+    </string-array>
+    <string-array name="freqCalendar">
+        <item>a day</item>
+        <item>a week</item>
+        <item>a month</item>
+        <item>a year</item>
+    </string-array>
+
+    <!--ManageSymptoms Page-->
+    <string name="addInfo">Other Information</string>
+    <string name="popSymAddBtn">Add</string>
+    <string name="symPage">Symptoms</string>
+    <string name="addNewSym">Add New Symptom</string>
+    <string name="symDateButton">Select Start Date</string>
+    <string-array name="sym">
+        <item>[ Symptom ]</item>
+        <item>Abdominal Pain</item>
+        <item>Blurry Vision/Difficulty Seeing</item>
+        <item>Chest Pain</item>
+        <item>Congestion (specify below)</item>
+        <item>Constipation</item>
+        <item>Cough</item>
+        <item>Diarrhea</item>
+        <item>Difficulty Swallowing</item>
+        <item>Dizziness</item>
+        <item>Earache</item>
+        <item>Eye Discomfort/Redness</item>
+        <item>Fever</item>
+        <item>Foot/Leg Swelling</item>
+        <item>Headaches</item>
+        <item>Heart Palpitations</item>
+        <item>Joint/Muscle Pain</item>
+        <item>Migraines</item>
+        <item>Nausea or Vomiting</item>
+        <item>Neck Pain</item>
+        <item>Other Pain (specify below)</item>
+        <item>Pelvic Pain</item>
+        <item>Rash</item>
+        <item>Shortness of Breath</item>
+        <item>Sore Throat</item>
+        <item>Urinary Problems</item>
+        <item>Wheezing</item>
+        <item>Other (specify below)</item>
+    </string-array>
+
+    <!--ManageContacts Page-->
+    <string name="contactTitle">Contacts</string>
+    <string name="addNewCon">Add New Contact</string>
+    <string name="conName">Name</string>
+    <string name="conEmail">Email</string>
+    <string-array name="conRelation">
+        <item>[ Relationship ]</item>
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Step-Mother</item>
+        <item>Step-Father</item>
+        <item>Grandmother</item>
+        <item>Grandfather</item>
+        <item>Sibling</item>
+        <item>Granddaughter</item>
+        <item>Grandson</item>
+        <item>Friend</item>
+        <item>Other</item>
+    </string-array>
+
+    <!--Setting Page-->
+    <string name="curDoc">Current Doctor</string>
+    <string name="doctor">Doctor:</string>
+    <string name="phone">Phone:</string>
+    <string name="emailS">Email:</string>
+    <string name="address">Address:</string>
+    <string name="saveChanges">Save Changes</string>
+    <string name="fakeAdd">123 Good Lane</string>
+    <string name="fakeNum">1235557890</string>
+    <string name="fakeEmail">blank@email.com</string>
+
+    <!--DoctorPopup Page-->
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="doctorId">Doctor ID#</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+
+    <!--Notifications Page-->
+    <string name="notifications">Notifications</string>
+    <string name="vib">Vibration</string>
+    <string name="vib1">3 one-second long vibrations</string>
+    <string name="vib2">1 three-second long vibration</string>
+    <string name="vib3">5 half-second vibrations</string>
+    <string name="sound">Sound</string>
+    <string name="sound1">Option 1</string>
+    <string name="sound2">Option 2</string>
+    <string name="sound3">Option 3</string>
+    <string name="color">Color</string>
+    <string name="color1">Black</string>
+    <string name="color2">Red</string>
+    <string name="color3">Blue</string>
+</resources>
